@@ -40,8 +40,9 @@
             android:inputType="textPersonName|text|textEmailAddress" />
 
         <TextView
-            android:id="@+id/enterdNmeTxtView"
+            android:id="@+id/nickNameTxtView"
             style="@style/Name_style"
+            android:text="@{myName.nickname}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center|center_vertical"
