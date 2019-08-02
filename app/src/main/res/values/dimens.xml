@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="name_text_size">20sp</dimen>
+    <dimen name="mid_padding">16dp</dimen>
+    <dimen name="info_text_size">12dp</dimen>
+    <item name="line_spacing" type="dimen" format="float">1.5</item>
+</resources>
