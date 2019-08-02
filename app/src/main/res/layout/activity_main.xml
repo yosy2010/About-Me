@@ -1,65 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/nameTxtView"
-        style="@style/Name_style"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/name_text"
-        android:textAlignment="center"
-        android:textSize="@dimen/name_text_size" />
-
-    <ImageView
-        android:id="@+id/starImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/star_image_descreption"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
-
-    <EditText
-        android:id="@+id/nameEditTxtView"
-        style="@style/Name_style"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/enter_your_name"
-        android:inputType="textPersonName|text|textEmailAddress" />
-
-    <TextView
-        android:id="@+id/enterdNmeTxtView"
-        style="@style/Name_style"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center|center_vertical"
-        android:visibility="visible" />
-
-    <Button
-        android:id="@+id/doneBtnView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/done" />
-
-    <ScrollView
-        android:id="@+id/scrolIfoView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/aboutTxtView"
+            android:id="@+id/nameTxtView"
             style="@style/Name_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:lineSpacingMultiplier="@dimen/line_spacing"
-            android:paddingStart="@dimen/mid_padding"
-            android:paddingEnd="@dimen/mid_padding"
-            android:text="@string/about_me_string"
-            android:textSize="@dimen/info_text_size" />
-    </ScrollView>
-</LinearLayout>
+            android:text="@string/name_text"
+            android:textAlignment="center"
+            android:textSize="@dimen/name_text_size" />
+
+        <ImageView
+            android:id="@+id/starImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/star_image_descreption"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <EditText
+            android:id="@+id/nameEditTxtView"
+            style="@style/Name_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_your_name"
+            android:inputType="textPersonName|text|textEmailAddress" />
+
+        <TextView
+            android:id="@+id/enterdNmeTxtView"
+            style="@style/Name_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/doneBtnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/done" />
+
+        <ScrollView
+            android:id="@+id/scrolIfoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/aboutTxtView"
+                style="@style/Name_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="@dimen/line_spacing"
+                android:paddingStart="@dimen/mid_padding"
+                android:paddingEnd="@dimen/mid_padding"
+                android:text="@string/about_me_string"
+                android:textSize="@dimen/info_text_size" />
+        </ScrollView>
+    </LinearLayout>
+</layout>
 
