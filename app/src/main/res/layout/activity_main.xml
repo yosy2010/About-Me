@@ -4,7 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
+        <variable
+            name="myName"
+            type="com.tamimi.aboutme.MyName" />
     </data>
 
     <LinearLayout
@@ -17,7 +19,7 @@
             style="@style/Name_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/name_text"
+            android:text="@{myName.name}"
             android:textAlignment="center"
             android:textSize="@dimen/name_text_size" />
 
