@@ -24,7 +24,7 @@
             android:id="@+id/aboutTxtView"
             style="@style/Name_style"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:lineSpacingMultiplier="@dimen/line_spacing"
             android:paddingStart="@dimen/mid_padding"
             android:paddingEnd="@dimen/mid_padding"
