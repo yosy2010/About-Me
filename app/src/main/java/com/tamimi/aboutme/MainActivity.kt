@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     private fun addNickName(view: View?) {
 
         // here we are taking the text entered in the edit text and assigning it to the object nickName
-        binding.myName?.nickname = nameEditTxtView.text.toString()
+        myName.nickname = nameEditTxtView.text.toString()
         nickNameTxtView.visibility = View.VISIBLE
         nameEditTxtView.visibility = View.GONE
 
